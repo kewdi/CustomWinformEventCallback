@@ -35,7 +35,7 @@ namespace item_deletion_example
             ItemDeletedEventArgs item_info = 
                 new ItemDeletedEventArgs(item.name, item.num);
 
-            OnItemDeleted.Invoke(sender, item_info);;
+            OnItemDeleted.Invoke(sender, item_info);
         }
     }
 }
